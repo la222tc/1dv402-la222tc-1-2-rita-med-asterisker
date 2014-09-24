@@ -4,3 +4,9 @@ C:\Users\Linus\Desktop\visualstudioprojects\1-2-rita-med-asterisker\1-2-rita-med
 C:\Users\Linus\Desktop\visualstudioprojects\1-2-rita-med-asterisker\1-2-rita-med-asterisker\obj\Debug\1-2-rita-med-asterisker.csprojResolveAssemblyReference.cache
 C:\Users\Linus\Desktop\visualstudioprojects\1-2-rita-med-asterisker\1-2-rita-med-asterisker\obj\Debug\1-2-rita-med-asterisker.exe
 C:\Users\Linus\Desktop\visualstudioprojects\1-2-rita-med-asterisker\1-2-rita-med-asterisker\obj\Debug\1-2-rita-med-asterisker.pdb
+P:\Laborationer\1dv402-la222tc-1-2-rita-med-asterisker\1-2-rita-med-asterisker\1-2-rita-med-asterisker\bin\Debug\1-2-rita-med-asterisker.exe.config
+P:\Laborationer\1dv402-la222tc-1-2-rita-med-asterisker\1-2-rita-med-asterisker\1-2-rita-med-asterisker\obj\Debug\1-2-rita-med-asterisker.exe
+P:\Laborationer\1dv402-la222tc-1-2-rita-med-asterisker\1-2-rita-med-asterisker\1-2-rita-med-asterisker\obj\Debug\1-2-rita-med-asterisker.pdb
+P:\Laborationer\1dv402-la222tc-1-2-rita-med-asterisker\1-2-rita-med-asterisker\1-2-rita-med-asterisker\bin\Debug\1-2-rita-med-asterisker.exe
+P:\Laborationer\1dv402-la222tc-1-2-rita-med-asterisker\1-2-rita-med-asterisker\1-2-rita-med-asterisker\bin\Debug\1-2-rita-med-asterisker.pdb
+P:\Laborationer\1dv402-la222tc-1-2-rita-med-asterisker\1-2-rita-med-asterisker\1-2-rita-med-asterisker\obj\Debug\1-2-rita-med-asterisker.csprojResolveAssemblyReference.cache

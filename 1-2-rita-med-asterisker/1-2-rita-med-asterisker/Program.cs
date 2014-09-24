@@ -13,13 +13,30 @@ namespace _1_2_rita_med_asterisker
 
             for (int i = 0; i < 25; i++)
             {
-
-                if (i == 1 || i == 3 || i == 5 || i == 7 || i == 9 || i == 11 || i == 13 || i == 15 || i == 17 || i == 19 || i == 21 || i == 23 || i == 25)
+                
+                if (i % 2 == 1)
                 {
                     Console.Write(" ");
 
                 }
+                // Om i % 2 är samma som 1 så skrivs ett mellanslag ut innan raden
+                switch (i % 3)
+                {
 
+                    case 0:
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        break;
+
+                    case 1:
+                        Console.ForegroundColor = ConsoleColor.Magenta;
+                        break;
+
+                    case 2:
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        break;
+
+                }
+                
 
                 for (int j = 0; j < 39; j++)
                 {
@@ -29,51 +46,59 @@ namespace _1_2_rita_med_asterisker
                 }
                 Console.WriteLine();
 
-                switch (i)
-                {
-                    case 0:
-                    case 3:
-                    case 6:
-                    case 9:
-                    case 12:
-                    case 15:
-                    case 18:
-                    case 21:
-                    case 24:
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        break;
-                    case 1:
-                    case 4:
-                    case 7:
-                    case 10:
-                    case 13:
-                    case 16:
-                    case 19:
-                    case 22:
-                    case 25:
-                        Console.ForegroundColor = ConsoleColor.Magenta;
-                        break;
-                    case 2:
-                    case 5:
-                    case 8:
-                    case 11:
-                    case 14:
-                    case 17:
-                    case 20:
-                    case 23:
-                        Console.ForegroundColor = ConsoleColor.Green;
-                        break;
-                }
+                // Skriver ut (* ) tills j = 39
 
                 
+
+            }
+
+        }
+    }
+}
+
+                    //case 1:
+                    //default:
+                    //    {
+                    //        if (i % 3 == 0)
+                    //        {
+                    //            Console.ForegroundColor = ConsoleColor.Yellow;
+                    //        }
+                    //        else if (i % 3 == 1)
+                    //        {
+                    //            Console.ForegroundColor = ConsoleColor.Magenta;
+                    //        }
+                    //        else if (i % 3 == 2)
+                    //        {
+                    //            Console.ForegroundColor = ConsoleColor.Green;
+                    //        }
+                    //    }
+                    //    break;
+                   
+                    //case 2:
+                    //    if (i % 3 == 1)
+                    //    {
+                    //        Console.ForegroundColor = ConsoleColor.Magenta;
+                    //    }
+
+                    //    break;
+
+
+                    //case 3:
+                    //    if (i % 3 == 2)
+                    //    {
+                    //        Console.ForegroundColor = ConsoleColor.Green;
+                    //    }
+                        
+                    //    break;
+                
+                // Använder i och väljer ut de olika värden i får och tilldelar den raden en färg.
+                
+
+
 
                 //do
                 //{
                 //    Console.ForegroundColor = ConsoleColor.Yellow;
 
                 //} while (i == 0);
-            }
             
-        }
-    }
-}
